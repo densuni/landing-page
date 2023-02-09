@@ -115,3 +115,23 @@ h2 {
   font-size: 14px;
   margin-top: 5px;
 }
+
+.section-three {
+  background-color: #E5E7EB;
+}
+
+.quote-container {
+  padding: 100px 305px;
+}
+
+.quote {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.section-three p {
+  font-weight: bolder;
+  text-align: end;
+}
