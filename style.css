@@ -20,6 +20,7 @@ body {
   margin-bottom: 125px;
 }
 
+h3,
 .header-logo {
   font-size: 24px;
 }
@@ -36,7 +37,7 @@ ul {
   justify-content: space-between;
 }
 
-.left-section {
+.section-one .left-section {
   width: 450px;
   height: 241px;
 }
@@ -44,8 +45,14 @@ ul {
 h1,
 button,
 .header-logo {
-  color: #F9FAF8;
   font-weight: bolder;
+}
+
+h1,
+h3,
+button,
+.header-logo {
+  color: #F9FAF8;
 }
 
 h1 {
@@ -59,15 +66,20 @@ h1,
 
 ul,
 .image,
-.section-one p {
+.section-one p,
+.section-four p {
   color: #E5E7EB;
   font-size: 18px;
 }
 
-button {
+button,
+.blue-container {
   background-color: #3882F6;
   border: 0;
   border-radius: 8px;
+}
+
+button {
   font-size: 18px;
   padding: 8px 30px;
 }
@@ -140,4 +152,24 @@ h2 {
 .section-three p {
   font-weight: bolder;
   text-align: end;
+}
+
+.section-four {
+  padding: 100px 200px;
+}
+
+.blue-container {
+  padding: 50px 125px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-four button {
+  border: 2px solid;
+  border-color: #F9FAF8;
+  align-self: center;
+}
+
+h3 {
+  margin-bottom: 8px;
 }
