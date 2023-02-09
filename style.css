@@ -79,41 +79,49 @@ button {
 }
 
 .section-two {
-  padding-bottom: 60px;
+  padding-bottom: 90px;
   text-align: center;
 }
 
 .info-container {
   display: flex;
   justify-content: center;
-  gap: 35px;
+  gap: 50px;
+}
+
+h2,
+.quote {
+  font-size: 36px;
+}
+
+h2,
+.text,
+.quote {
+  color: #1F2937;
 }
 
 h2 {
-  color: #1F2937;
-  font-size: 26px;
   font-weight: bolder;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 45px;
+  margin-bottom: 45px;
 }
 
 .info {
-  max-width: 135px;
+  max-width: 165px;
   justify-content: center;
   align-items: center;
 }
 
 .illus {
-  width: 135px;
-  height: 135px;
-  border: 3px solid;
+  width: 165px;
+  height: 165px;
+  border: 4px solid;
   border-radius: 15px;
   border-color: #3882F6;
 }
 
 .text {
-  font-size: 14px;
-  margin-top: 5px;
+  margin-top: 8px;
 }
 
 .section-three {
@@ -125,8 +133,6 @@ h2 {
 }
 
 .quote {
-  color: #1F2937;
-  font-size: 36px;
   font-weight: lighter;
   font-style: italic;
 }
