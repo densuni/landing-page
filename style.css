@@ -8,8 +8,12 @@ body {
   flex-direction: column;
 }
 
-.section-one {
+.section-one,
+.footer {
   background-color: #1F2937;
+}
+
+.section-one {
   padding: 15px 200px 100px;
 }
 
@@ -67,7 +71,8 @@ h1,
 ul,
 .image,
 .section-one p,
-.section-four p {
+.section-four p,
+.footer {
   color: #E5E7EB;
   font-size: 18px;
 }
@@ -172,4 +177,11 @@ h2 {
 
 h3 {
   margin-bottom: 8px;
+}
+
+.footer {
+  padding: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
